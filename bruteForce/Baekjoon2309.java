@@ -1,3 +1,5 @@
+package bruteForce;
+
 /*
   문제 출처 : https://www.acmicpc.net/problem/2309
   일곱 난장이
