@@ -1,4 +1,4 @@
-package bruteForce;
+package bruteForce.etc;
 
 /*
   문제 출처 : https://www.acmicpc.net/problem/2309
