@@ -16,13 +16,13 @@ import java.util.StringTokenizer;
 public class Baekjoon13398 {
   private static int getMaxSum(int[] arr) {
     int n = arr.length;
-    int max = 0;
+    int max = arr[0];
     // [n][0] : n번째 수를 제거하지 않았을 경우, 연속되는 수의 합 최대 값
     // [n][1] : n번째 수를 제거했을 경우, 연속되는 수의 합 최대 값
     int[][] m = new int[n][2];
 
     m[0][0] = arr[0];
-    m[0][1] = 0;
+    m[0][1] = arr[0];
 
     for(int i = 1 ; i < n ; i++) {
       m[i][0] = Math.max(m[i - 1][0] + arr[i], arr[i]);
