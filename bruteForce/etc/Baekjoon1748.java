@@ -30,6 +30,8 @@ public class Baekjoon1748 {
       temp *= 10;
     }
 
+    // 위에서 구해주지 않은 마지막 자릿수에서의 총 자릿수 계산
+    // ex) 120 : 백의 자리수의 총 자릿수 계산 (100 ~ 120까지의 총 자릿수 계산)
     int last = (int) (number - Math.pow(10, numberLength - 1) + 1) * numberLength;
     totalLength += last;
 
