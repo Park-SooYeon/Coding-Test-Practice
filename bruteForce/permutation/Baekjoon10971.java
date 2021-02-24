@@ -1,3 +1,5 @@
+package bruteForce.permutation;
+
 /*
   문제 출처 : https://www.acmicpc.net/problem/10971
   외판원 순회 2
